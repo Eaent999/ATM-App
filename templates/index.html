@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: #08a9ff;
+        }
+        .container {
+            text-align: center;
+            background: #000000;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #ffffff;
+            margin-bottom: 50px;
+        }
+        ul {
+            list-style: none;
+            padding: 10;
+            margin: 10;
+        }
+        ul li {
+            margin: 15px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to ATM App</h1>
+    <ul>
+        <li><a href="/create_account">สร้างบัญชี</a></li>
+        <li><a href="/view_balance">ดูยอดคงเหลือ</a></li>
+        <li><a href="/deposit">ฝากเงิน</a></li>
+        <li><a href="/withdraw">ถอนเงิน</a></li>
+        <li><a href="/delete_account">ลบบัญชี</a></li>
+    </ul>
+</body>
+</html>
